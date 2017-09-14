@@ -1,0 +1,546 @@
+/**************************************/
+/***** GLOBAL FONTS *******************/
+/**************************************/
+
+
+a {
+  text-decoration: none;
+  color: #2a5c6f;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #2A5C6F;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  color: #4d4d4d;
+  font-weight: 400;
+
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #808080;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.header h1 {
+  font-family: Raleway, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(90deg, #855DCE, #2CC3A2);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+
+.header h3 {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 4px;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.container2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #4d4d4d;
+  line-height: 50px;
+  padding-top: 4%;
+}
+
+.container4 h2 {
+  color: #ffffff;
+}
+
+
+.container5 h4{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #2A5C6F;
+  margin: -2% 0;
+}
+
+.container7 h2 a  {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container8 p {
+  font-style: italic;
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+.methodLineText {
+ margin: 4em 3.6em 0 1em;
+ float: right;
+ font-size: 18px;
+ font-weight: 700;
+
+}
+
+/**************************************/
+/***** HEADER/NAV/LOGO ****************/
+/**************************************/
+
+.topNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 2%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  height: 100vh;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+canvas {
+  position: absolute;
+  top: 100px;
+  z-index: 0;
+}
+
+.logo {
+  width: 218px;
+  height: 58px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  padding-left: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.servicesHeader {
+  width: 100%;
+}
+
+.servicesHeader {
+  padding-bottom: 2em;
+}
+
+
+footer .logo {
+  margin-right: 2em;
+}
+
+
+.companyHeader {
+  background: linear-gradient(90deg, #855DCE, #2CC3A2);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+
+}
+
+/**************************************/
+/***** CONTAINERS *********************/
+/**************************************/
+
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f6f6f6;
+  padding: 2% 2%;
+  text-align: center;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2A5C6F;
+  height: 50vh;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  background-color: #f6f6f6;
+  height: 80vh;
+  text-align: center;
+  padding: 4% 0;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  text-align: center;
+  padding: 4% 0;
+}
+
+.container7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2A5C6F;
+  height: 50vh;
+  width: 100%;
+}
+
+.container8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.container9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 80vh;
+}
+
+.container10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+  height: 50vh;
+}
+
+.container11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+  height: 40vh;
+}
+
+.contactContainer {
+  height: 65vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.serviceContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 6% 0;
+  padding: 4% 0;
+}
+
+.serviceContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 8% 0;
+  text-align: right;
+  background-color: #f6f6f6;
+}
+
+.leadershipLine h3,
+.cultureLine h3 {
+  margin: 0 0 -.5em 3.5em;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.methodLine {
+  margin: 4em 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: #f6f6f6;
+  text-align: left;
+}
+
+
+/**************************************/
+/*****  SERVICE BOXES *****************/
+/**************************************/
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 450px;
+  height: 250px;
+  margin: 3% 3.5%;
+  padding: 2%;
+  padding-top: 4%;
+}
+
+/**************************************/
+/***** CULTURE/METHOD/CONTACT BOXES ***/
+/**************************************/
+
+.culture {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.cultureBoxes {
+  background-color: #f6f6f6;
+  margin: 0 2%;
+  padding: 3%;
+}
+
+.method {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.methodBoxes {
+  background-color: #f6f6f6;
+  margin: 0 1.2%;
+  padding: 3%;
+  height: 300px;
+  width: 300px;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 600px;
+  background: #ffffff;
+}
+/**************************************/
+/*****  TEAM PHOTO BOXES **************/
+/**************************************/
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+}
+
+/**************************************/
+/*****  BUTTONS ***********************/
+/**************************************/
+
+.headerButton {
+  background: linear-gradient(90deg, #855DCE, #2CC3A2);
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: 0px;
+}
+
+
+.contactButton {
+  background-color: #ffffff;
+  color: #2A5C6F;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: 0px;
+}
+
+.cultureButton {
+  text-align: center;
+}
+
+.companyButton {
+  margin-bottom: 4em;
+  background-color: #2A5C6F;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: 0px;
+}
+
+
+
+/**************************************/
+/***** ICONS **************************/
+/**************************************/
+
+.fa-angle-down {
+  font-size: 3.0em;
+  color: #4d4d4d;
+}
+
+.fa-cogs {
+  font-size: 2.0em;
+  color: #4d4d4d;
+}
+
+.fa-fire,
+.fa-lightbulb-o,
+.fa-globe,
+.fa-instagram,
+.fa-twitter,
+.fa-facebook {
+  font-size: 2.0em;
+  color: #2A5C6F;
+  padding: 0 .5em;
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/**************************************/
+/*****  IMAGES ************************/
+/**************************************/
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+/**************************************/
+/*****  ANIMATIONS ********************/
+/**************************************/
+
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.fade-in {
+  animation-duration: 4s;
+  animation-name: fadeInOut;
+}
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/**************************************/
+/*****  PSEUDO CLASSES ****************/
+/**************************************/
+
+
+
+.service:hover {
+  width: 500;
+  height: 300px;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px grey;
+  transition-delay: all 1s ease,
+  -webkit-transition-delay: all 1s ease,
+}
+
+
+a:visited {
+  color: #2A5C6F;
+}
+
+nav:hover {
+  color: #743524;
+}
