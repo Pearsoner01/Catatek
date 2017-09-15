@@ -105,8 +105,12 @@ hr {
  float: right;
  font-size: 18px;
  font-weight: 700;
-
 }
+
+.contactBox a {
+  color: #ffffff;
+}
+
 
 /**************************************/
 /***** HEADER/NAV/LOGO ****************/
