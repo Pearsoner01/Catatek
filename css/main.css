@@ -92,6 +92,10 @@ p {
   text-align: center;
 }
 
+.contactBox p {
+  color: #ffffff;
+}
+
 hr {
   width: 90%;
 }
@@ -161,7 +165,7 @@ footer .logo {
 
 
 .companyHeader {
-  background: linear-gradient(90deg, #855DCE, #2CC3A2);
+  background: linear-gradient(45deg, #855DCE, #2CC3A2);
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -270,11 +274,12 @@ footer .logo {
 }
 
 .contactContainer {
-  height: 65vh;
-  background-color: #ffffff;
+  background-image: url('../img/worldMap.png');
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 85vh;
 
 }
 
@@ -377,8 +382,10 @@ footer {
   align-items: center;
   height: 100px;
   width: 600px;
-  background: #ffffff;
+  background: #2A5C6F;
+  opacity: .8;
 }
+
 /**************************************/
 /*****  TEAM PHOTO BOXES **************/
 /**************************************/
@@ -437,7 +444,16 @@ footer {
   border: 0px;
 }
 
-
+.formButton {
+  background-color: #2A5C6F;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 3%;
+  border: 0px;
+  cursor: pointer;
+}
 
 /**************************************/
 /***** ICONS **************************/
@@ -543,4 +559,33 @@ a:visited {
 
 nav:hover {
   color: #743524;
+}
+
+/**************************************/
+/*****  FORMS *************************/
+/**************************************/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #ffffff;
+  opacity: .8;
+  height: 300px;
+  width: 600px;
+  /*box-shadow: 4px 4px 4px 5px #ccc;*/
+}
+
+.formField {
+  width: 300px;
+  height: 2em;
+  margin: 4% 0;
+  padding-left: 3%;
+  font-family: 'Open Sans', sans-serif;
+  border: 0px;
+  background-color: #ccc;
+  border-radius: 5px;
+  outline: none;
 }

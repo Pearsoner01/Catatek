@@ -28,12 +28,13 @@
     "line_linked": {
       "enable": false,
       "color": "#2A5C6F",
-      "width": 0.1
+      "width": 0.2
    },
    "move": {
      "enable": true,
-     "speed": 2,
-     "random": true
+     "speed": 1,
+     "random": true,
+     "direction": "bottom"
 
    }
  },
