@@ -6,7 +6,7 @@
 a {
   text-decoration: none;
   color: #2a5c6f;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
@@ -151,7 +151,10 @@ li {
   text-decoration: none;
   display: inline;
   padding-left: 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .servicesHeader {
@@ -388,6 +391,7 @@ footer {
   width: 600px;
   background: #2A5C6F;
   opacity: .8;
+  border-radius: 5px 5px 0 0;
 }
 
 /**************************************/
@@ -456,7 +460,16 @@ footer {
   border-radius: 5px;
   margin-top: 3%;
   border: 0px;
+}
+
+button {
   cursor: pointer;
+  outline: none;
+}
+
+.contactNav {
+  /*background-color: #2A5C6F;*/
+  color: #ffffff;
 }
 
 /**************************************/
@@ -545,6 +558,9 @@ footer {
 /*****  PSEUDO CLASSES ****************/
 /**************************************/
 
+.formButton:hover {
+  background-color: #337088;
+}
 
 
 .service:hover {
@@ -556,13 +572,16 @@ footer {
   -webkit-transition-delay: all 1s ease,
 }
 
-
 a:visited {
   color: #2A5C6F;
 }
 
-nav:hover {
-  color: #743524;
+#contactNav {
+  background-color: #2A5C6F;
+  color: #ffffff;
+  font-size: 13px;
+  padding: .4em 1em;
+  border-radius: 5px;
 }
 
 /**************************************/
@@ -579,6 +598,7 @@ nav:hover {
   opacity: .8;
   height: 300px;
   width: 600px;
+  border-radius: 0 0 20px 20px;
   /*box-shadow: 4px 4px 4px 5px #ccc;*/
 }
 

@@ -4,12 +4,14 @@
       <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106587467-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
 
-      gtag('config', 'UA-106587467-1');
-    </script>
+gtag("config", "UA-106587467-1");
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Technology, A.I., Digital Branding, Websites, Software, Enterprise Applications, St. Petersburg, Tampa, Florida, Creative, Services">
@@ -38,10 +40,10 @@
         <p><b>P: </b><a href="tel:404.518.1276">404.518.1276</a><br><b>E: </b><a href="mailto:info@catatek.com">info@catatek.com</a></p>
       </div>
         <div class="form">
-        <form>
-          <input type="text" class="formField" placeholder="Name"><br>
-          <input type="email" class="formField" placeholder="Email"><br>
-          <textarea class="formField" placeholder="Message"></textarea><br>
+        <form action="contact.php" method="get">
+          <input type="text" class="formField" name="name" placeholder="Name"><br>
+          <input type="email" class="formField" name="email" placeholder="Email"><br>
+          <textarea class="formField" name="message" placeholder="Message"></textarea><br>
           <button type="submit" class="formButton">Submit</button>
         </form>
         </div>
