@@ -261,7 +261,9 @@ footer .logo {
   height: 80vh;
 }
 
-.container9 {
+.container9,
+.container12
+ {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -678,11 +680,19 @@ button {
 
 @media screen and (max-width: 500px) {
 
-.header h1 {
+/************ GLOBAL FONTS **************/
+
+
+.header h1,
+.companyHeader h1  {
   font-size: 38px;
   text-align: left;
   margin: 1.8em 0 1.5em 1.4em;
 }
+
+h2 {
+    font-size: 34px;
+  }
 
 .header h3 {
     font-size: 12px;
@@ -691,38 +701,79 @@ button {
     margin: 0 0 3.4em 0;
   }
 
+  .container2 p {
+      font-size: 16px;
+      line-height: 40px;
+      width: 80%;
+      height: 100%;
+      padding: 4em 0;
+    }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container4 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  footer p {
+    order: 3;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .fa-instagram,
+  .fa-facebook,
+  .fa-twitter {
+    font-size: 1.6em;
+  }
+
+
+  /************ BUTTONS **************/
+
 .headerButton {
     margin-top: 2.0em;
   }
 
-h2 {
-    font-size: 34px;
+  button {
+    font-size: 14px;
   }
 
-.container2 br {
+  /************ LINE BREAK **************/
+
+.container2 br,
+.companyHeader br,
+.container9 br,
+.serviceContainer1 br,
+.serviceContainer2 br,
+.container10 br,
+.container11 br,
+.container12 br {
   content: ' ';
 }
 
-.container2 p {
-    font-size: 16px;
-    line-height: 40px;
-    width: 80%;
-    height: 100%;
-    padding: 4em 0;
-  }
+/************ CONTAINER LAYOUT *********/
 
-p {
-  font-size: 16px;
+.companyHeader {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
 }
 
-.container4 h2 {
-  font-size: 30px;
-  text-align: center;
+.container9,
+.method {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-button {
-  font-size: 14px;
+.methodBoxes {
+  margin: 2em 0;
 }
+
 
 .container5 {
   display: flex;
@@ -736,6 +787,15 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+.container9,
+.container10,
+.container11,
+.container12 {
+  width: 90%;
+  margin: 0 auto;
 }
 
 
@@ -770,22 +830,12 @@ footer {
   height: 65vh;
 }
 
-footer p {
-  order: 3;
-  font-size: 12px;
-  line-height: 18px;
-  text-align: center;
-}
+
 
 footer .logo {
   order: 2;
 }
 
-.fa-instagram,
-.fa-facebook,
-.fa-twitter {
-  font-size: 1.6em;
-}
 
 .serviceContainer1 {
   display: flex;
@@ -799,5 +849,11 @@ footer .logo {
   flex-direction: column;
   width: 100%;
 }
+
+.contactBox,
+.form {
+  width: 90%
+}
+
 
 }
