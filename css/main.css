@@ -479,7 +479,6 @@ button {
 }
 
 .contactNav {
-  /*background-color: #2A5C6F;*/
   color: #ffffff;
 }
 
@@ -659,7 +658,7 @@ button {
     float: right;
     display: block;
     font-size: 1.5em;
-    margin-right: 1.5em;
+    /*margin-right: 1.5em;*/
   }
 
   .header1 {
@@ -672,7 +671,7 @@ button {
     font-size: 48px;
   }
 
-.header h3 {
+  .header h3 {
     font-size: 16px;
   }
 
@@ -683,18 +682,18 @@ button {
 /************ GLOBAL FONTS **************/
 
 
-.header h1,
-.companyHeader h1  {
+  .header h1,
+  .companyHeader h1  {
   font-size: 38px;
   text-align: left;
   margin: 1.8em 0 1.5em 1.4em;
 }
 
-h2 {
+  h2 {
     font-size: 34px;
   }
 
-.header h3 {
+  .header h3 {
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
@@ -734,7 +733,7 @@ h2 {
 
   /************ BUTTONS **************/
 
-.headerButton {
+  .headerButton {
     margin-top: 2.0em;
   }
 
@@ -744,116 +743,149 @@ h2 {
 
   /************ LINE BREAK **************/
 
-.container2 br,
-.companyHeader br,
-.container9 br,
-.serviceContainer1 br,
-.serviceContainer2 br,
-.container10 br,
-.container11 br,
-.container12 br {
-  content: ' ';
-}
+  .container2 br,
+  .companyHeader br,
+  .container9 br,
+  .serviceContainer1 br,
+  .serviceContainer2 br,
+  .container10 br,
+  .container11 br,
+  .container12 br {
+    content: ' ';
+  }
 
 /************ CONTAINER LAYOUT *********/
 
-.companyHeader {
-  display: flex;
-  flex-direction: column;
-  height: 85vh;
+  .companyHeader {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+  }
+
+  .container9,
+  .method {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .methodBoxes {
+    margin: 2em 0;
+  }
+
+
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0;
+    height: 100%;
+  }
+
+  .container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .container9,
+  .container10,
+  .container11,
+  .container12 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    justify-content: center;
+  }
+
+  .picture {
+    margin: 3.0em 0;
+  }
+
+  .culture {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+
+  .cultureBoxes {
+    margin: 2em 0;
+    padding: 2em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 65vh;
+  }
+
+
+
+  footer .logo {
+    order: 2;
+  }
+
+
+  .serviceContainer1 {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+
+  .sectionContainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contactBox,
+  .form {
+    width: 90%;
+  }
+
+.topMenu.responsive a.icon {
+  position: absolute;
+  right: 0;
+  padding: 1em 1em 0 0;
 }
 
-.container9,
-.method {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.topMenu.responsive li {
+    color: #ffffff;
+    display: block;
+    float: none;
+    text-align: left;
+    padding: .5em 0;
+  }
+
+.topMenu.responsive ul {
+    display: grid;
+    padding: 0 0;
+    padding: 19em 10em;
+    margin: 38em 0em 0 0;
+    opacity: .95;
+    background-color: #2A5C6F;
+    border-radius: 5px;
+  }
+
+.topMenu.responsive  {
+    position: fixed;
+    margin: 0 auto;
+    padding-left: 1.5em;
+  }
+
+.topMenu.responsive a {
+    color: #ffffff;
 }
-
-.methodBoxes {
-  margin: 2em 0;
-}
-
-
-.container5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4em 0;
-  height: 100%;
-}
-
-.container6 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.container9,
-.container10,
-.container11,
-.container12 {
-  width: 90%;
-  margin: 0 auto;
-}
-
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  margin-top: 3em;
-  justify-content: center;
-}
-
-.picture {
-  margin: 3.0em 0;
-}
-
-.culture {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  align-items: center;
-}
-
-.cultureBoxes {
-  margin: 2em 0;
-  padding: 2em;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  height: 65vh;
-}
-
-
-
-footer .logo {
-  order: 2;
-}
-
-
-.serviceContainer1 {
-  display: flex;
-  flex-direction: column-reverse;
-  height: 100%;
-  width: 100%;
-}
-
-.sectionContainer2 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.contactBox,
-.form {
-  width: 90%
-}
-
 
 }
