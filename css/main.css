@@ -685,8 +685,8 @@ button {
   .header h1,
   .companyHeader h1  {
   font-size: 38px;
-  text-align: left;
-  margin: 1.8em 0 1.5em 1.4em;
+  text-align: center;
+  margin: 1em;
 }
 
   h2 {
@@ -697,7 +697,7 @@ button {
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
-    margin: 0 0 3.4em 0;
+    margin: 0 0 2.0em 0;
   }
 
   .container2 p {
@@ -750,7 +750,8 @@ button {
   .serviceContainer2 br,
   .container10 br,
   .container11 br,
-  .container12 br {
+  .container12 br,
+  .container8 br {
     content: ' ';
   }
 
@@ -786,6 +787,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .container8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.4em 0;
+    padding: 0 1em;
   }
 
 
@@ -836,9 +845,29 @@ button {
   }
 
 
+  .serviceContainerText1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+  }
+
+  .serviceContainerText2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+  }
+
   .serviceContainer1 {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
   }
@@ -846,18 +875,21 @@ button {
   .sectionContainer2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 
   .contactBox,
   .form {
     width: 90%;
+    padding: 0 .8em;
   }
 
 .topMenu.responsive a.icon {
   position: absolute;
   right: 0;
-  padding: 1em 1em 0 0;
+
 }
 
 .topMenu.responsive li {
@@ -877,13 +909,12 @@ button {
     padding: 0 0;
     width: 100%;
     margin: 38em 0 0 0;
-    opacity: .95;
+    opacity: .9;
     background-color: #2A5C6F;
     border-radius: 5px;
-    /*height: 100vh;*/
   }
 
-.topMenu.responsive  {
+.topMenu.responsive {
     position: fixed;
     margin: 0 auto;
     padding: 0;
@@ -892,8 +923,6 @@ button {
     justify-content: center;
     align-items: center;
     width: 85%;
-    height: 50%;
-    padding: 10em 0;
     text-align: center;
   }
 
