@@ -32,9 +32,9 @@
    },
    "move": {
      "enable": true,
-     "speed": 1,
-     "random": true,
-     "direction": "bottom"
+     "speed": 2,
+     "random": true
+
 
    }
  },
