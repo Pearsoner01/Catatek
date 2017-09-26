@@ -43,7 +43,7 @@ p {
   font-family: Raleway, sans-serif;
   font-size: 58px;
   font-weight: 400;
-  background: -webkit-linear-gradient(90deg, #855DCE, #2CC3A2);
+  background: -webkit-linear-gradient(90deg, #43cea2, #185a9d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -182,7 +182,7 @@ footer .logo {
 
 
 .companyHeader {
-  background: linear-gradient(45deg, #855DCE, #2CC3A2);
+  background: linear-gradient(45deg, #185a9d, #43cea2);
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -338,6 +338,25 @@ footer .logo {
   font-weight: 700;
 }
 
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em 0;
+  background-color: #f6f6f6;
+}
+
+
+.logoContainer img {
+  -webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
+
+.hackLogo {
+  width: 125px;
+  height: 125px;
+}
+
 
 footer {
   display: flex;
@@ -427,7 +446,7 @@ footer {
 /**************************************/
 
 .headerButton {
-  background: #2A5C6F;
+  background: linear-gradient(45deg, #185a9d, #43cea2);
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
