@@ -672,7 +672,6 @@ button {
     float: right;
     display: block;
     font-size: 1.5em;
-    /*margin-right: 1.5em;*/
   }
 
   .header1 {
@@ -903,7 +902,6 @@ button {
 .topMenu.responsive a.icon {
   position: absolute;
   right: 0;
-
 }
 
 .topMenu.responsive li {
