@@ -104,7 +104,7 @@ hr {
 }
 
 .methodLineText {
- margin: 4em 3.6em 0 1em;
+ /*margin: 4em 3.6em 0 1em;*/
  float: right;
  font-size: 18px;
  font-weight: 700;
@@ -358,6 +358,10 @@ footer .logo {
   height: 125px;
 }
 
+.hillsLogo {
+  width: 279px;
+  height: 115px;
+}
 
 footer {
   display: flex;
