@@ -420,10 +420,31 @@ footer {
 
 .methodBoxes {
   background-color: #f6f6f6;
+  border-radius: 1em;
   margin: 0 1.2%;
   padding: 3%;
   height: 300px;
   width: 300px;
+}
+
+.methodBoxes > h3 {
+  font-weight: 550;
+}
+
+.methodBoxes > p {
+  color: #fefffe;
+}
+
+#strategyMethod {
+  background-color: #22729e;
+}
+
+#designMethod {
+  background-color: #36a5a0;
+}
+
+#techMethod {
+  background-color: #42cba2;
 }
 
 .contactBox {
