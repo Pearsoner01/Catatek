@@ -10,7 +10,7 @@
   "private": true,
   "scripts": {
     "deploy": "surge ./public --domain catatek",
-    "start": "browser-sync start --server --files '*'"
+    "start": "browser-sync start -sf ."
   },
   "dependencies": {
     "particles.js": "^2.0.0"

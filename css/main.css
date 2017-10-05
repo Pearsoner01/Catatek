@@ -553,11 +553,29 @@ button {
 
 /**************************************/
 
-.circle {
+.circleWill {
   width: 200px;
   height: 200px;
-  background-color: #ccc;
   border-radius: 50%;
+  background-image: url('/img/will.jpg');
+  background-size: contain;
+}
+
+.circleAustin {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('/img/austin.jpg');
+  background-size: contain;
+}
+
+.circleRaj {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('/img/raj.png');
+  background-size: cover;
+  background-position: center;
 }
 
 /**************************************/
