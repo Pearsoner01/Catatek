@@ -308,7 +308,7 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   margin: 6% 0;
   padding: 4% 0;
@@ -318,11 +318,15 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   padding: 8% 0;
   text-align: right;
   background-color: #f6f6f6;
+}
+
+.serviceContainer2 p {
+  width: 580px;
 }
 
 .leadershipLine h3,
@@ -464,6 +468,24 @@ footer {
 /*****  TEAM PHOTO BOXES **************/
 
 /**************************************/
+
+.serviceContainerText1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceContainerText1 p {
+  width: 580px;
+}
+
+.serviceContainerText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile {
   display: flex;
