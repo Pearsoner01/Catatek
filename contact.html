@@ -27,40 +27,44 @@ gtag('config', 'UA-106587467-1');
 </head>
 
 <body>
-  <div class="topNav">
-    <a href="index.html"><img src="img/LogoWebsite.png" alt="Catatek Logo" class="logo"></a>
-    <nav class="topMenu" id="myTopnav">
-      <ul>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="company.html">Company</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </ul>
-    </nav>
+  <div class="contactWrapper">
+    <div class="topNav">
+      <a href="index.html"><img src="img/LogoWebsite.png" alt="Catatek Logo" class="logo"></a>
+      <nav class="topMenu" id="myTopnav">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="contactContainer">
+      <div class="contactBox">
+        <p>260 1st Avenue S.<br>St. Petersburg, FL 33701</p>
+        <p><b>P: </b><a href="tel:404.518.1276">404.518.1276</a><br><b>E: </b><a href="mailto:info@catatek.com">info@catatek.com</a></p>
+      </div>
+      <div class="form">
+        <form class="" action="contact.php" method="get">
+          <input type="text" class="formField" name="name" placeholder="Name"><br>
+          <input type="email" class="formField" name="email" placeholder="Email"><br>
+          <textarea class="formField" name="message" placeholder="Message"></textarea><br>
+          <button type="submit" class="formButton">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>260 1st Ave S.<br>St. Petersburg, FL 33701<br><b>P:</b><a href="tel:404-518-1276">404-518-1276</a><br><b>E:</b><a href="mailto:info@catatek.com">info@catatek.com</a></p>
+      <a href="index.html"><img src="img/LogoWebsite.png" alt="Catatek Logo" class="logo"></a>
+      <div class="footerIcons">
+        <a href="https://www.instagram.com/catatek_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/catatek1/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/Catatek" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </footer>
   </div>
-  <div class="contactContainer">
-    <div class="contactBox">
-      <p>260 1st Avenue S.<br>St. Petersburg, FL 33701</p>
-      <p><b>P: </b><a href="tel:404.518.1276">404.518.1276</a><br><b>E: </b><a href="mailto:info@catatek.com">info@catatek.com</a></p>
-    </div>
-    <div class="form">
-      <form action="contact.php" method="get">
-        <input type="text" class="formField" name="name" placeholder="Name"><br>
-        <input type="email" class="formField" name="email" placeholder="Email"><br>
-        <textarea class="formField" name="message" placeholder="Message"></textarea><br>
-        <button type="submit" class="formButton">Submit</button>
-      </form>
-    </div>
-  </div>
-  <footer>
-    <p>260 1st Ave S.<br>St. Petersburg, FL 33701<br><b>P:</b><a href="tel:404-518-1276">404-518-1276</a><br><b>E:</b><a href="mailto:info@catatek.com">info@catatek.com</a></p>
-    <a href="index.html"><img src="img/LogoWebsite.png" alt="Catatek Logo" class="logo"></a>
-    <div class="footerIcons">
-      <a href="https://www.instagram.com/catatek_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/catatek1/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/Catatek" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    </div>
-  </footer>
   <script src="./script.js"></script>
 </body>
 
