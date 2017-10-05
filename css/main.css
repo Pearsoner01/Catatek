@@ -561,6 +561,14 @@ button {
   background-size: contain;
 }
 
+.squareWill {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
+  background-image: url('/img/will.jpg');
+  background-size: cover;
+}
+
 .circleAustin {
   width: 200px;
   height: 200px;
@@ -569,10 +577,27 @@ button {
   background-size: contain;
 }
 
+.squareAustin {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
+  background-image: url('/img/austin.jpg');
+  background-size: cover;
+}
+
 .circleRaj {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  background-image: url('/img/raj.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.squareRaj {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
   background-image: url('/img/raj.png');
   background-size: cover;
   background-position: center;
