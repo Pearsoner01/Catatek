@@ -1,5 +1,7 @@
 /**************************************/
+
 /***** GLOBAL FONTS *******************/
+
 /**************************************/
 
 a {
@@ -111,7 +113,9 @@ hr {
 }
 
 /**************************************/
+
 /***** HEADER/NAV/LOGO ****************/
+
 /**************************************/
 
 .topNav {
@@ -186,7 +190,9 @@ footer .logo {
 }
 
 /**************************************/
+
 /***** CONTAINERS *********************/
+
 /**************************************/
 
 .container2 {
@@ -283,20 +289,26 @@ footer .logo {
   height: 40vh;
 }
 
+.contactWrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .contactContainer {
   background-image: url('../img/worldMap.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 60vh;
 }
 
 .serviceContainer1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   margin: 6% 0;
   padding: 4% 0;
@@ -306,11 +318,15 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   padding: 8% 0;
   text-align: right;
   background-color: #f6f6f6;
+}
+
+.serviceContainer2 p {
+  width: 580px;
 }
 
 .leadershipLine h3,
@@ -357,13 +373,15 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 30vh;
+  height: 25vh;
   background-color: #f6f6f6;
   text-align: left;
 }
 
 /**************************************/
+
 /*****  SERVICE BOXES *****************/
+
 /**************************************/
 
 .service {
@@ -379,7 +397,9 @@ footer {
 }
 
 /**************************************/
+
 /***** CULTURE/METHOD/CONTACT BOXES ***/
+
 /**************************************/
 
 .culture {
@@ -387,6 +407,7 @@ footer {
   flex-direction: row;
   text-align: center;
 }
+
 .cultureBoxes {
   background-color: #f6f6f6;
   margin: 0 2%;
@@ -400,12 +421,35 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .methodBoxes {
   background-color: #f6f6f6;
+  border-radius: 1em;
   margin: 0 1.2%;
   padding: 3%;
   height: 300px;
   width: 300px;
+}
+
+.methodBoxes > h3 {
+  font-weight: 550;
+  color: #fefffe;
+}
+
+.methodBoxes > p {
+  color: #fefffe;
+}
+
+#strategyMethod {
+  background-color: #22729e;
+}
+
+#designMethod {
+  background-color: #36a5a0;
+}
+
+#techMethod {
+  background-color: #42cba2;
 }
 
 .contactBox {
@@ -421,8 +465,28 @@ footer {
 }
 
 /**************************************/
+
 /*****  TEAM PHOTO BOXES **************/
+
 /**************************************/
+
+.serviceContainerText1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceContainerText1 p {
+  width: 580px;
+}
+
+.serviceContainerText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile {
   display: flex;
@@ -437,7 +501,9 @@ footer {
 }
 
 /**************************************/
+
 /*****  BUTTONS ***********************/
+
 /**************************************/
 
 .headerButton {
@@ -498,7 +564,9 @@ button {
 }
 
 /**************************************/
+
 /***** ICONS **************************/
+
 /**************************************/
 
 .fa-angle-down {
@@ -528,25 +596,74 @@ button {
   flex-direction: row;
   justify-content: space-between;
 }
-/**************************************/
-/*****  IMAGES ************************/
+
 /**************************************/
 
-.circle {
+/*****  IMAGES ************************/
+
+/**************************************/
+
+.circleWill {
   width: 200px;
   height: 200px;
-  background-color: #ccc;
   border-radius: 50%;
+  background-image: url('/img/will.jpg');
+  background-size: contain;
+}
+
+.squareWill {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
+  background-image: url('/img/will.jpg');
+  background-size: cover;
+}
+
+.circleAustin {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('/img/austin.jpg');
+  background-size: contain;
+}
+
+.squareAustin {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
+  background-image: url('/img/austin.jpg');
+  background-size: cover;
+}
+
+.circleRaj {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('/img/raj.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.squareRaj {
+  width: 340px;
+  height: 332px;
+  border-radius: 0.5em;
+  background-image: url('/img/raj.png');
+  background-size: cover;
+  background-position: center;
 }
 
 /**************************************/
+
 /*****  ANIMATIONS ********************/
+
 /**************************************/
 
 .arrow {
   text-align: center;
   margin: 8% 0;
 }
+
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -573,18 +690,20 @@ button {
   animation-duration: 4s;
   animation-name: fadeInOut;
 }
+
 @keyframes fadeInOut {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
 }
 
 /**************************************/
+
 /*****  PSEUDO CLASSES ****************/
+
 /**************************************/
 
 .formButton:hover {
@@ -612,7 +731,9 @@ button {
 }
 
 /**************************************/
+
 /*****  FORMS *************************/
+
 /**************************************/
 
 .form {
@@ -642,7 +763,9 @@ button {
 }
 
 /**************************************/
+
 /*****  MEDIA QUERIES *****************/
+
 /**************************************/
 
 @media (max-width: 780px) {
@@ -651,31 +774,25 @@ button {
     height: 49px;
     padding: 1.5em;
   }
-
   .topMenu {
     display: block;
   }
-
   nav li {
     display: none;
   }
-
   .topMenu .icon {
     float: right;
     display: block;
     font-size: 1.5em;
   }
-
   .header1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-
   .header h1 {
     font-size: 48px;
   }
-
   .header h3 {
     font-size: 16px;
   }
@@ -683,25 +800,21 @@ button {
 
 @media screen and (max-width: 500px) {
   /************ GLOBAL FONTS **************/
-
   .header h1,
   .companyHeader h1 {
     font-size: 38px;
     text-align: center;
     margin: 1em;
   }
-
   h2 {
     font-size: 34px;
   }
-
   .header h3 {
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
     margin: 0 0 2em 0;
   }
-
   .container2 p {
     font-size: 16px;
     line-height: 40px;
@@ -709,41 +822,32 @@ button {
     height: 100%;
     padding: 4em 0;
   }
-
   p {
     font-size: 16px;
   }
-
   .container4 h2 {
     font-size: 30px;
     text-align: center;
   }
-
   footer p {
     order: 3;
     font-size: 12px;
     line-height: 18px;
     text-align: center;
   }
-
   .fa-instagram,
   .fa-facebook,
   .fa-twitter {
     font-size: 1.6em;
   }
-
   /************ BUTTONS **************/
-
   .headerButton {
     margin-top: 2em;
   }
-
   button {
     font-size: 14px;
   }
-
   /************ LINE BREAK **************/
-
   .container2 br,
   .companyHeader br,
   .container9 br,
@@ -755,26 +859,21 @@ button {
   .container8 br {
     content: ' ';
   }
-
   /************ CONTAINER LAYOUT *********/
-
   .companyHeader {
     display: flex;
     flex-direction: column;
     height: 85vh;
   }
-
   .container9,
   .method {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
-
   .methodBoxes {
     margin: 2em 0;
   }
-
   .container5 {
     display: flex;
     flex-direction: column;
@@ -782,13 +881,11 @@ button {
     padding: 4em 0;
     height: 100%;
   }
-
   .container6 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .container8 {
     display: flex;
     flex-direction: column;
@@ -796,7 +893,6 @@ button {
     margin: 1.4em 0;
     padding: 0 1em;
   }
-
   .container9,
   .container10,
   .container11,
@@ -804,42 +900,35 @@ button {
     width: 90%;
     margin: 0 auto;
   }
-
   .profile {
     display: flex;
     flex-direction: column;
     margin-top: 3em;
     justify-content: center;
   }
-
   .picture {
     margin: 3em 0;
   }
-
   .culture {
     display: flex;
     flex-direction: column;
     width: 90%;
     align-items: center;
   }
-
   .cultureBoxes {
     margin: 2em 0;
     padding: 2em;
   }
-
   footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 65vh;
+    height: 25vh;
   }
-
   footer .logo {
     order: 2;
   }
-
   .serviceContainerText1 {
     display: flex;
     flex-direction: column;
@@ -848,7 +937,6 @@ button {
     width: 90%;
     text-align: center;
   }
-
   .serviceContainerText2 {
     display: flex;
     flex-direction: column;
@@ -857,7 +945,6 @@ button {
     width: 90%;
     text-align: center;
   }
-
   .serviceContainer1 {
     display: flex;
     flex-direction: column-reverse;
@@ -866,7 +953,6 @@ button {
     height: 100%;
     width: 100%;
   }
-
   .sectionContainer2 {
     display: flex;
     flex-direction: column;
@@ -874,18 +960,15 @@ button {
     justify-content: center;
     width: 100%;
   }
-
   .contactBox,
   .form {
     width: 90%;
     padding: 0 0.8em;
   }
-
   .topMenu.responsive a.icon {
     position: absolute;
     right: 0;
   }
-
   .topMenu.responsive li {
     color: #ffffff;
     display: block;
@@ -897,7 +980,6 @@ button {
     font-size: 1.5em;
     border-top: 1px solid #fff;
   }
-
   .topMenu.responsive ul {
     display: block;
     padding: 0 0;
@@ -907,7 +989,6 @@ button {
     background-color: #2a5c6f;
     border-radius: 5px;
   }
-
   .topMenu.responsive {
     position: fixed;
     margin: 0 auto;
@@ -919,11 +1000,9 @@ button {
     width: 85%;
     text-align: center;
   }
-
   .topMenu.responsive a:not(.icon) {
     color: #ffffff;
   }
-
   .topNav {
     padding: 5%;
     margin: 0;

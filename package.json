@@ -1,0 +1,21 @@
+{
+  "name": "catatek.com",
+  "private": true,
+  "homepage": "catatek.com",
+  "version": "1.0.0",
+  "description": "Catatek's business website",
+  "main": "index.html",
+  "repository": "https://github.com/Catatek/Catatek.git",
+  "author": "William Whatley, Austin Hintze, and Justin Linn",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "surge ./public --domain catatek",
+    "start": "browser-sync start -sf ."
+  },
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
