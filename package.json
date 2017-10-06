@@ -1,5 +1,6 @@
 {
   "name": "catatek.com",
+  "private": true,
   "homepage": "catatek.com",
   "version": "1.0.0",
   "description": "Catatek's business website",
@@ -7,7 +8,6 @@
   "repository": "https://github.com/Catatek/Catatek.git",
   "author": "William Whatley, Austin Hintze, and Justin Linn",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "deploy": "surge ./public --domain catatek",
     "start": "browser-sync start -sf ."
