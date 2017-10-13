@@ -639,7 +639,16 @@ button {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-image: url('/img/raj.png');
+  background-image: url('/img/circleRaj.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.circleJustin {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('/img/justinCircle.jpg');
   background-size: cover;
   background-position: center;
 }
