@@ -844,12 +844,18 @@ button {
     line-height: 25px;
     margin: 0 0 2em 0;
   }
+  .header1 {
+    height: 100vh;
+  }
   .container2 p {
     font-size: 16px;
     line-height: 40px;
     width: 80%;
     height: 100%;
-    padding: 4em 0;
+    padding: 0;
+  }
+  .arrow{
+    margin: 0 0 8% 0;
   }
   p {
     font-size: 16px;
@@ -863,6 +869,7 @@ button {
     font-size: 12px;
     line-height: 18px;
     text-align: center;
+    padding-top: 25px;
   }
   .fa-instagram,
   .fa-facebook,
@@ -953,10 +960,18 @@ button {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 25vh;
+    height: 35vh;
   }
   footer .logo {
     order: 2;
+  }
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
   }
   .serviceContainerText1 {
     display: flex;
@@ -982,12 +997,29 @@ button {
     height: 100%;
     width: 100%;
   }
+  .serviceContainer1 p{
+    text-align: center;
+    width: 80%;
+  }
+  .servicesImageAI{
+    height: 100%;
+    width: 80%;
+  }
+
+  .servicesImageET{
+    height: 100%;
+    width: 50%;
+  }
   .sectionContainer2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+  .serviceContainer2 p{
+    text-align: center;
+    width: 80%;
   }
   .contactBox,
   .form {
