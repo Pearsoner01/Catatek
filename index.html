@@ -22,6 +22,8 @@ gtag('config', 'UA-106587467-1');
   <title>Catatek</title>
   <script src="https://use.fontawesome.com/cb93aa0e77.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:400,400i,500,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -33,8 +35,8 @@ gtag('config', 'UA-106587467-1');
       <nav class="topMenu" id="myTopnav">
         <ul>
           <li><a href="services.html">Services</a></li>
-          <li><a href="company">Company</a></li>
-          <li><a href="contact">Contact</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </ul>
       </nav>
@@ -129,10 +131,11 @@ gtag('config', 'UA-106587467-1');
     <button class="companyButton" type="submit" onclick="window.location.href='company.html'">Company</button>
   </div>
   <div class="logoContainer">
-    <img src="img/Hack_circle.png" class="hackLogo" alt="Hack TampaBay Logo">
-    <img src="img/hackZika.png" class="hackLogo" alt="Hack for TampaBay's Hack Zika Logo">
-    <img src="img/pef-logo.jpg" alt="Pinellas County Education Foundation Logo">
-    <img src="img/hillsborough.png" class="hillsLogo" alt="Hillsborough County Schools Logo">
+    <div><img src="img/Hack_circle.png" class="hackLogo" alt="Hack TampaBay Logo"></div>
+    <div><img src="img/pef-logo.jpg" alt="Pinellas County Education Foundation Logo"></div>
+    <div><img src="img/hackZika.png" class="hackLogo" alt="Hack for TampaBay's Hack Zika Logo"></div>
+    <div><img src="img/hillsborough.png" class="hillsLogo" alt="Hillsborough County Schools Logo"></div>
+    <div><a href="http://engagitech.com" target="_blank"><img src="img/favicon.png" class="engagitechLogo" alt="Engagitech Logo"></a></div>
   </div>
     <div class="container7">
       <h2><a href="contact.html">Contact Us</a></h2>
@@ -146,12 +149,21 @@ gtag('config', 'UA-106587467-1');
         <a href="https://twitter.com/Catatek" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
     </footer>
+<!-- CDN SRC -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script> -->
     <script>
-    particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.json loaded...');
-});
-</script>
+      particlesJS.load('particles-js', 'particles.json', function() {});
+    </script>
+    <!-- <script type="text/javascript">
+      $(document).ready(function(){
+        $('.autoplay').slick({
+          setting-name: setting-value
+        });
+      });
+    </script> -->
     <script src="./script.js"></script>
 </body>
 
